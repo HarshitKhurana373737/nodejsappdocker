@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("harshit.khurana/nodejsapp")
+        app = docker.build("dockerhub3737/nodejsapp")
     }
 
     stage('Test image') {
